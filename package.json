@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "vite": "^4.4.7"
+  },
+  "name": "api-doc",
+  "version": "1.0.0",
+  "description": "my collection api project",
+  "main": "src/app.ts",
+  "repository": "https://github.com/Fujitime/api.git",
+  "author": "Fujitime",
+  "license": "MIT"
+}
