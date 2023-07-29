@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #1f2937; 
+}
+/* CSS untuk mengatur tombol */
+.dark-mode-toggle {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* CSS untuk efek hover tombol */
+  .dark-mode-toggle:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* CSS untuk efek saat tombol ditekan */
+  .dark-mode-toggle:active {
+    background-color: #003a80;
+    transform: scale(0.95);
+  }
+  
+  /* CSS untuk efek saat tombol dalam kondisi aktif */
+  .dark-mode-toggle.active {
+    background-color: #1c8dff;
+    border-color: #1c8dff;
+    color: #FFF;
+  }
+  
+  /* CSS untuk efek saat tombol dalam kondisi aktif di hover */
+  .dark-mode-toggle.active:hover {
+    background-color: #0f7ae6;
+    transform: scale(1.05);
+  }
+  
+/* Dark mode */
+body.dark-mode {
+    background-color: #0f172a;
+    color: #e5e5e5; /* Dark mode text color */
+}
+#darkModeToggle{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    justify-items: end;    
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Apply dark mode color to the title */
+body.dark-mode .title {
+    color: #ccc;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.api-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #333; /* Default text color for .api-item */
+}
+
+/* Apply dark mode color to .api-item */
+body.dark-mode .api-item {
+    background-color: #1e293b;
+    color: #e5e5e5;
+}
+
+.api-image {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.api-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Apply dark mode color to .api-title */
+body.dark-mode .api-title {
+    color: #e5e5e5;
+}
+
+.api-description {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Apply dark mode color to .api-description */
+body.dark-mode .api-description {
+    color: #ccc;
+}
+
+.api-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.api-link:hover {
+    background-color: #0056b3;
+}
+
+/* Apply dark mode styles to .api-link on hover */
+body.dark-mode .api-link:hover {
+    background-color: #007BFF;
+}
+
+/* Media queries for responsiveness */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .api-image{
+        width: 250px;
+    }
+}
+
+/* Smartphone */
+@media (max-width: 576px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .api-item {
+        padding: 10px;
+    }
+    .api-image{
+        width: 50%px;
+    }
+
+}
