@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "description": "my collection api project",
   "main": "src/app.ts",
-  "repository": "https://github.com/Fujitime/api.git",
+  "repository": "https://github.com/Fujitime/my-api.git",
   "author": "Fujitime",
   "license": "MIT",
   "devDependencies": {

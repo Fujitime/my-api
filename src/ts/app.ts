@@ -9,7 +9,7 @@ interface ApiData {
 
 async function fetchApiData(): Promise<ApiData[]> {
   try {
-    const response = await fetch('../src/db/my-api.json');
+    const response = await fetch('/my-api.json');
     const data = await response.json();
     return data;
   } catch (error) {
