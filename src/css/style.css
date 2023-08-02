@@ -59,12 +59,6 @@ body.dark-mode {
     padding: 20px;
 }
 
-.title {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #333;
-}
-
 /* Apply dark mode color to the title */
 body.dark-mode .title {
     color: #ccc;

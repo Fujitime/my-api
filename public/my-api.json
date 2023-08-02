@@ -1,39 +1,9 @@
 [
     {
       "name": "HoloGif",
-      "description": "Gif data and social media from Hololive members",
+      "description": "This API allows you to retrieve information about various Hololive members, including their quotes, GIF links, and social media links.",
       "image": "https://i.ibb.co/FbgWFqd/7ac08a53-8f91-4859-a5cb-cf7a181fcf8b.jpg",
-      "link": "https://hologif.api.fujitime.my.id/"
-    },
-    {
-        "name": "test",
-        "description": "lorem ipsum dolor sit amet",
-        "image": "https://i.ytimg.com/vi/bWEgOcDj5yA/maxresdefault.jpg",
-        "link": "https://api.fujitime.my.id/"
-    },
-    {
-        "name": "test",
-        "description": "lorem ipsum dolor sit amet",
-        "image": "https://i.ytimg.com/vi/bWEgOcDj5yA/maxresdefault.jpg",
-        "link": "https://api.fujitime.my.id/"
-    },
-    {
-        "name": "test",
-        "description": "lorem ipsum dolor sit amet",
-        "image": "https://i.ytimg.com/vi/bWEgOcDj5yA/maxresdefault.jpg",
-        "link": "https://api.fujitime.my.id/"
-    },
-    {
-        "name": "test",
-        "description": "lorem ipsum dolor sit amet",
-        "image": "https://i.ytimg.com/vi/bWEgOcDj5yA/maxresdefault.jpg",
-        "link": "https://api.fujitime.my.id/"
-    },
-    {
-        "name": "test",
-        "description": "lorem ipsum dolor sit amet",
-        "image": "https://i.ytimg.com/vi/bWEgOcDj5yA/maxresdefault.jpg",
-        "link": "https://api.fujitime.my.id/"
+      "link": "https://github.com/Fujitime/hologif-api"
     }
   ]
   
